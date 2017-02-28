@@ -14,7 +14,7 @@ module.exports = function(bot) {
         return msg.send(msg.random(adjective) + " What else should I add?");
     });
     bot.hear('no', function(msg){
-        return msg.send(msg.random(adjective) + " Here are all the things you  need to do: " + toDo + ". " + msg.random(images));
+        return msg.send(msg.random(adjective) + " Here are all the things you need to do: " + toDo + ". " + msg.random(images));
     });
     bot.hear('check', function(msg) {
         if (toDo.length>3) {
