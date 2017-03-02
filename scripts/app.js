@@ -1,3 +1,4 @@
+/*
 module.exports = function(bot) {
     var greeting = ['hi', 'howdy', 'hello', 'good morning'];
     var adjective = ['Great!', 'Awesome.', 'You got it.', 'Excellent.'];
@@ -24,3 +25,4 @@ module.exports = function(bot) {
         }
     });
 }
+*/
