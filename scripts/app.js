@@ -4,7 +4,7 @@ module.exports = function(bot) {
     var images = ["https://cdn.meme.am/cache/instances/folder270/56977270.jpg", "http://combiboilersleeds.com/images/you-can-do-it/you-can-do-it-9.jpg", "http://combiboilersleeds.com/image.php?pic=/images/you-can-do-it/you-can-do-it-7.jpg"];
     var toDo = [];
     bot.respond(greeting, function(msg) {
-        return msg.send("Hi there! What did you need to do today? Type 'add' followed by your task");
+        return msg.reply("Hi there! What did you need to do today? Type 'add' followed by your task");
     });
     bot.hear(/add (.*)/i, function(msg){
         toDo.push(msg.match[1]);
